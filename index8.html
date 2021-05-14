@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etiket ve listeler</title>
+    <style>
+        body{
+            font-size: 25px;
+        }
+    </style>
+
+    <style>
+        ul{
+            list-style: upper-roman;
+        }
+        ol{
+            list-style: circle;
+        }
+    </style>
+
+</head>
+<body>
+    sadece body ye ait font büyüklüğü
+
+    <h1>LİSTELER</h1>
+    <!--unordered list yani(nokta şeklinde) düzensiz listeler-->
+
+    <h2>Sırasız listeler</h2>
+    <ul>
+        Programlama Dilleri
+        <li>java</li>
+        <li>Python</li>
+    </ul>
+
+    <h2>Sıralı Listeler</h2>
+    <!--ordered yani(1,2,3..) diye sıralı yapar.
+    reversed de ters demek yani terstten yazdırır. -->
+    <ol reversed start="7" type="1">
+        Resim
+        <li>Portre</li>
+        <li>Karakalem</li>
+            <ol type="A">
+                <li>Manzara</li>
+                <li>İllüstrasyon</li>
+            </ol>
+           
+    </ol>
+
+</body>
+</html>
